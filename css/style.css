@@ -464,9 +464,6 @@ footer{
 .footer_tits{
 	margin-bottom: 40px;
 }
-.footer_logo{
-
-}
 .footer_img{
   width: calc((100% - 15px) / 2);
   margin-bottom: 15px;
@@ -495,6 +492,28 @@ footer{
 .footer_img:hover::before{
   opacity: 0.5;
 }
-.footer_icons{
-  
+.feel h2{
+  background: #000;
+  color: var(--neutral-01, #FFF);
+text-align: center;
+
+/* Headline/H2 */
+font-family: Playfair Display;
+font-size: 55px;
+font-style: normal;
+font-weight: 500;
+line-height: 60.5px; /* 110% */
+}
+.feel{
+  margin-bottom: 80px;
+}
+.feel_tit{
+margin-bottom: 16px;
+}
+.feel_img{
+  position: relative;
+}
+.svg{
+  justify-content: center;
+  position: absolute;
 }
