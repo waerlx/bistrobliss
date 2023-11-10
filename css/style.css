@@ -492,21 +492,18 @@ footer{
 .footer_img:hover::before{
   opacity: 0.5;
 }
+/* feel */
 .feel h2{
   background: #000;
   color: var(--neutral-01, #FFF);
 text-align: center;
-
-/* Headline/H2 */
 font-family: Playfair Display;
 font-size: 55px;
 font-style: normal;
 font-weight: 500;
 line-height: 60.5px; /* 110% */
 }
-.feel{
-  margin-bottom: 80px;
-}
+
 .feel_tit{
 margin-bottom: 16px;
 }
@@ -516,4 +513,31 @@ margin-bottom: 16px;
 .svg{
   justify-content: center;
   position: absolute;
+}
+/* feel_card */
+.feel_cards{
+  width: calc((100%-80px)3);
+  align-items: center;
+  margin-top: 80px;
+
+}
+.feel_card{
+  flex-direction: column;
+  margin-right: 87px;
+}
+.feel_icons_left{
+  width: 50%;
+  margin-right: 24px;
+}
+.feel_info_right{
+  width: 50%;
+}
+/* little */
+.little_tit{
+  color:  #2C2F24;
+font-family: Playfair Display;
+font-size: 55px;
+font-style: normal;
+font-weight: 500;
+line-height: 60.5px; /* 110% */
 }
