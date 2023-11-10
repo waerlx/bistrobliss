@@ -493,56 +493,36 @@ footer{
   opacity: 0.5;
 }
 /* feel */
-.feel h2{
-  background: #000;
-  color: var(--neutral-01, #FFF);
+.feel_top{
+  background: url(/img/icons/feel_bg.jpg) center no-repeat;
+  background-size: cover;
+  padding: 215px 0;
+  display: block;
+}
+
+.feel_top .sec_tit{
+  max-width: 596px;
+  margin: 0 auto;
+  color: #FFF;
 text-align: center;
-font-family: Playfair Display;
-font-size: 55px;
-font-style: normal;
-font-weight: 500;
-line-height: 60.5px; /* 110% */
 }
-
-.feel_tit{
-margin-bottom: 16px;
-}
-.feel_img{
-  width: 1600px;
-height: 690px;
-flex-shrink: 0;
-}
-.svg{
-  justify-content: center;
-  position: absolute;
-}
-/* feel_card */
-.feel_cards{
-  width: calc((100%-80px)3);
-  align-items: center;
-  margin-top: 80px;
+.feel_play{
+  width: 106px;
+  height: 106px;
+  display: block;
+  border-radius: 50%;
+  background: #fff;
+  margin: 0 auto 34px;
+  position: relative;
 
 }
-.feel_card{
-  flex-direction: column;
-  margin-right: 87px;
-}
-.feel_icons_left{
-  width: 50%;
-  margin-right: 24px;
-}
-.feel_info_right{
-  width: 50%;
-}
-/* little */
-.little_tit{
-  color:  #2C2F24;
-font-family: Playfair Display;
-font-size: 55px;
-font-style: normal;
-font-weight: 500;
-line-height: 60.5px; /* 110% */
-}
-.feel_img{
-  background: url(/img/icons/feel_bg.jpg);
+.feel_play::before{
+  content: '';
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 12.5px 0 12.5px 20px;
+border-color: transparent transparent transparent #AD343E;
+position: absolute;
+
 }
