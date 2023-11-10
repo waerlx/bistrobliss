@@ -508,7 +508,9 @@ line-height: 60.5px; /* 110% */
 margin-bottom: 16px;
 }
 .feel_img{
-  position: relative;
+  width: 1600px;
+height: 690px;
+flex-shrink: 0;
 }
 .svg{
   justify-content: center;
@@ -540,4 +542,7 @@ font-size: 55px;
 font-style: normal;
 font-weight: 500;
 line-height: 60.5px; /* 110% */
+}
+.feel_img{
+  background: url(/img/icons/feel_bg.jpg);
 }
