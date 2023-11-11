@@ -522,4 +522,22 @@ footer{
   border-width: 12.5px 0 12.5px 20px;
   border-color: transparent transparent transparent #AD343E;
 }
-.
+.feel_card{
+  width: calc((100%-43.5)/3);
+  max-width: 366px ;
+  max-height: 90px;
+}
+.feel_tit{
+  padding-bottom: 16px;
+}
+.feel_icon{
+  position: relative;
+  margin-right: 24px;
+} 
+/* little */
+.little_left{
+  width: 50%;
+}
+.little_right{
+ width: 50%;
+}
