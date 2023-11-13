@@ -631,10 +631,9 @@ footer {
 }
 
 .feel_card {
-  width: calc((100%-43.5)/3);
-  max-width: 366px;
-  max-height: 90px;
   margin-top: 80px;
+  width: 366px;
+  align-items: flex-start;
 }
 
 .feel_tit {
@@ -644,6 +643,10 @@ footer {
 .feel_icon {
   position: relative;
   margin-right: 24px;
+}
+
+.feel_info {
+  width: 294px;
 }
 
 /* little */
@@ -660,13 +663,10 @@ footer {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 610px;
 }
 
-.little_right {
-  width: 50%;
-  border-radius: 12px;
-  background: url(/img/icons/little_img.jpg), lightgray 50% / cover no-repeat;
-}
+.little_right {}
 
 .little_tit {
   color: #2C2F24;
@@ -684,23 +684,20 @@ footer {
 
 .little_img {
   border-radius: 12px;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-  width: 672px;
-height: 884px;
-flex-shrink: 0;
-
+  width: 555px;
+  height: 680px;
 }
 
 .little_card {
   width: calc((100% - 12px) / 2);
-  margin-bottom: 12px;
   overflow: hidden;
   position: relative;
   border-radius: 8px;
   border: 1px solid var(--neutral-03, #DBDFD0);
   background: var(--neutral-01, #FFF);
-  max-width: 293px;
-  max-height: 174px;
+  width: 293px;
+  height: 174px;
+  margin-bottom: 24px;
 }
 
 .little_card_statics {
@@ -735,6 +732,8 @@ flex-shrink: 0;
 
 .menu_btns {
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .btn_all {
@@ -808,16 +807,14 @@ flex-shrink: 0;
 }
 
 .order_left {
-  width: 50%;
+  width: 346px;
 }
 
 .order_right {
-  width: 50%;
   align-items: center;
   flex-direction: column;
   align-items: center;
-  max-width: 828px;
-  max-height: 350px;
+  width: 828px;
   justify-content: center;
 }
 
@@ -831,12 +828,22 @@ flex-shrink: 0;
   margin-bottom: 20px;
 }
 
-.order_apps {}
+.order_apps {
+  justify-content: center;
+}
 
 .order_app {
-  width: calc((100%-24px)/3);
-  margin: 20px 12px;
   background: #F9F9F7;
+  width: 220px;
+  margin-bottom: 40px;
+}
+
+.order_group1 {
+  width: 711px;
+}
+
+.order_group2 {
+  width: 828px;
 }
 
 /* blog_detailes */
