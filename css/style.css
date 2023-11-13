@@ -685,6 +685,9 @@ footer {
 .little_img {
   border-radius: 12px;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  width: 672px;
+height: 884px;
+flex-shrink: 0;
 
 }
 
@@ -720,9 +723,18 @@ footer {
   margin: 0 auto 20px;
 }
 
+.main_menu_txt {
+  color: var(--neutral-06, #495460);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
 .menu_btns {
   margin-top: 50px;
-  justify-content: center;
 }
 
 .btn_all {
@@ -740,6 +752,10 @@ footer {
   background: lightgray 50% / cover no-repeat;
 }
 
+.menu_menu_cards {
+  justify-content: center;
+}
+
 .menu_card {
   width: 306px;
   height: 417.469px;
@@ -747,4 +763,100 @@ footer {
   border-radius: 12px;
   border: 1.5px solid var(--neutral-03, #DBDFD0);
   background: var(--neutral-01, #FFF);
+}
+
+.menu_cost {
+  display: block;
+  color: #AD343E;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.72px;
+}
+
+.menu_tit {
+  color: var(--neutral-07, #2C2F24);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  /* 130% */
+}
+
+.menu_txt {
+  color: var(--neutral-06, #414536);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* order */
+.order {
+  background: #F9F9F7;
+}
+
+.order_in {
+  align-items: center;
+}
+
+.order_left {
+  width: 50%;
+}
+
+.order_right {
+  width: 50%;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 828px;
+  max-height: 350px;
+  justify-content: center;
+}
+
+.order_tit {
+  color: var(--neutral-07, #2C2F24);
+  font-family: Playfair Display;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60.5px;
+  margin-bottom: 20px;
+}
+
+.order_apps {}
+
+.order_app {
+  width: calc((100%-24px)/3);
+  margin: 20px 12px;
+  background: #F9F9F7;
+}
+
+/* blog_detailes */
+.secret_tit {
+  color: var(--neutral-07, #2C2F24);
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60.5px;
+  /* 110% */
+  margin-bottom: 62px;
+}
+
+.secret_img img {
+  border-radius: 12px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  max-width: 1087px;
+  max-height: 638px;
+  align-items: center;
+
 }
