@@ -754,14 +754,14 @@ footer {
 .menu_menu_cards {
   justify-content: center;
   margin-top: 79px;
-  
+
 }
 
 .menu_card {
   width: calc(100%/4);
   height: 417.469px;
   flex-shrink: 0;
-  border-radius: 12px;  
+  border-radius: 12px;
   border: 1.5px solid var(--neutral-03, #DBDFD0);
   background: var(--neutral-01, #FFF);
   margin-bottom: 24px;
@@ -861,6 +861,7 @@ footer {
   /* 110% */
   margin-bottom: 62px;
 }
+
 .secret_img img {
   border-radius: 12px;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
@@ -868,4 +869,68 @@ footer {
   max-height: 638px;
   align-items: center;
 
+}
+
+.secret_img {
+  justify-content: center;
+}
+
+ol {
+  list-style-type: none;
+  /* Убираем исходные маркеры */
+  counter-reset: item;
+  /* Обнуляем счетчик списка */
+}
+
+.secret_nm_txt li::before {
+  content: counter(item) ') ';
+  /* Добавляем к числам скобку */
+  counter-increment: item;
+  /* Задаём имя счетчика */
+}
+
+.secret_txts {
+  margin-top: 30px;
+}
+
+.secret_txt_tit {
+  margin-bottom: 20px;
+}
+
+.secret_txt_2 {
+  margin-top: 48px;
+}
+
+.secret_txt_3 {
+  margin-top: 48px;
+}
+
+.form_in {
+  border-radius: 16px;
+  border: 1px solid var(--neutral-01, #FFF);
+  background: var(--neutral-01, #FFF);
+  box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+  padding: 43px 50px 50px;
+}
+
+.form_txt {
+  color: #2C2F24;
+  font-weight: 700;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form_input_in  {
+  height: 58px;
+  border-radius: 72px;
+  border: 1px solid #DBDFD0;
+  background: #FFF;
+  padding: 0 24px;
+  margin-bottom: 24px;
+
+}
+
+.input {
+  line-height: 56px;
 }
