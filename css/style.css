@@ -858,7 +858,6 @@ footer {
   /* 110% */
   margin-bottom: 62px;
 }
-
 .secret_img img {
   border-radius: 12px;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
