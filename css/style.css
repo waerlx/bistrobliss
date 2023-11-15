@@ -926,11 +926,16 @@ ol {
   border-radius: 72px;
   border: 1px solid #DBDFD0;
   background: #FFF;
-  padding: 0 24px;
+  text-align: center;
+  padding:12px 24px;
   margin-bottom: 24px;
 
 }
 
 .input {
   line-height: 56px;
+  font-size: 16px;
+}
+.form_input{
+  width: calc(50%-12px);
 }
