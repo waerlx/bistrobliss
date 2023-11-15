@@ -143,7 +143,7 @@ section {
   border: 2px solid #2c2f24;
   transition: 0.3s;
   color: #182226;
-  text-align: right;
+  text-align: center;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -715,20 +715,8 @@ footer {
 }
 
 /* menu */
-.main_menu .sec_tit {
-  max-width: 455px;
-  margin: 0 auto 20px;
-}
 
-.main_menu_txt {
-  color: var(--neutral-06, #495460);
-  text-align: center;
-  font-family: DM Sans;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-}
+
 
 .menu_btns {
   margin-top: 50px;
@@ -752,13 +740,12 @@ footer {
 }
 
 .menu_menu_cards {
-  justify-content: center;
   margin-top: 79px;
 
 }
 
 .menu_card {
-  width: calc(100%/4);
+  width: 306px;
   height: 417.469px;
   flex-shrink: 0;
   border-radius: 12px;
@@ -822,7 +809,7 @@ footer {
 }
 
 .order_tit {
-  color: var(--neutral-07, #2C2F24);
+  color:  #2C2F24;
   font-family: Playfair Display;
   font-size: 55px;
   font-style: normal;
@@ -836,9 +823,10 @@ footer {
 }
 
 .order_app {
-  background: #F9F9F7;
+  background: #FFFFFF;
   width: 220px;
   margin-bottom: 40px;
+  border-radius: 12px;
 }
 
 .order_group1 {
@@ -904,38 +892,47 @@ ol {
 .secret_txt_3 {
   margin-top: 48px;
 }
-
-.form_in {
+.form{
+  margin-top: 72px;
+}
+.form_in{
   border-radius: 16px;
-  border: 1px solid var(--neutral-01, #FFF);
-  background: var(--neutral-01, #FFF);
+  border: 1px solid #FFF;
+  background: #FFF;
   box-shadow: 0px 2.97872px 59.57446px 0px rgba(0, 0, 0, 0.08);
+  max-width: 812px;
+  margin: 0 auto;
   padding: 43px 50px 50px;
 }
-
-.form_txt {
+.form_txt{
   color: #2C2F24;
   font-weight: 700;
-  line-height: 24px;
-  display: block;
+  line-height: 24px; /* 150% */
   margin-bottom: 8px;
+  display: block;
 }
-
-.form_input_in  {
-  height: 58px;
+.form_input-in{
   border-radius: 72px;
   border: 1px solid #DBDFD0;
-  background: #FFF;
-  text-align: center;
-  padding:12px 24px;
   margin-bottom: 24px;
-
+  padding: 0 24px;
 }
-
-.input {
+.input{
   line-height: 56px;
   font-size: 16px;
 }
 .form_input{
-  width: calc(50%-12px);
+  width: calc(50% - 12px);
+}
+.form_input__big{
+  width: 100%;
+}
+.form-wrap{
+  padding-bottom: 0;
+  margin-bottom: -240px;
+  z-index: 10;
+  position: relative;
+}
+.map{
+  padding-top: 0;
 }
