@@ -795,6 +795,12 @@ footer {
 .order_in {
   align-items: center;
 }
+.order_icon{
+  justify-content: center;
+  display: block;
+  align-items: center;
+  
+}
 
 .order_left {
   width: 346px;
@@ -827,6 +833,7 @@ footer {
   width: 220px;
   margin-bottom: 40px;
   border-radius: 12px;
+  height: 90px;
 }
 
 .order_group1 {
