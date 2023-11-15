@@ -746,22 +746,25 @@ footer {
   border-color: #2c2f24;
 }
 
-.menu_img {
+.menu_img img {
   border-radius: 12px 12px 0px 0px;
   background: lightgray 50% / cover no-repeat;
 }
 
 .menu_menu_cards {
   justify-content: center;
+  margin-top: 79px;
+  
 }
 
 .menu_card {
-  width: 306px;
+  width: calc(100%/4);
   height: 417.469px;
   flex-shrink: 0;
-  border-radius: 12px;
+  border-radius: 12px;  
   border: 1.5px solid var(--neutral-03, #DBDFD0);
   background: var(--neutral-01, #FFF);
+  margin-bottom: 24px;
 }
 
 .menu_cost {
