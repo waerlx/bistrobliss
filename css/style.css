@@ -946,3 +946,7 @@ ol {
 .map{
   padding-top: 0;
 }
+.menu_title .main_txt{
+  max-width: 632px;
+  height: 60px;
+}
