@@ -723,6 +723,9 @@ footer {
   display: flex;
   justify-content: center;
 }
+.menu_btn{
+  margin-right: 15px;
+}
 
 .btn_all {
   background: #ad343e;
@@ -749,8 +752,8 @@ footer {
   height: 417.469px;
   flex-shrink: 0;
   border-radius: 12px;
-  border: 1.5px solid var(--neutral-03, #DBDFD0);
-  background: var(--neutral-01, #FFF);
+  border: 1.5px solid  #DBDFD0;
+  background:  #FFF;
   margin-bottom: 24px;
 }
 
