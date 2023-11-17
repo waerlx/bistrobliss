@@ -873,8 +873,12 @@ footer {
 
 .secret_img {
   justify-content: center;
+  width: 1161.229px;
+height: 738.01px;
 }
-
+.secret_img img{
+border-radius: 12px 12px 0px 0px;
+}
 ol {
   list-style-type: none;
   /* Убираем исходные маркеры */
