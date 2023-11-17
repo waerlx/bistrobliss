@@ -477,6 +477,10 @@ section {
   width: 70px;
   height: 70px;
 }
+.our_img img{
+  border-bottom: inherit;
+   border-radius: 50%;
+}
 
 .our_customer {
   justify-content: flex-start;
