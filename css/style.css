@@ -358,6 +358,8 @@ line-height: 24px;
 }
 
 
+
+
 /* offer */
 .offer .sec_sub-tit {
   max-width: 675px;
@@ -377,6 +379,9 @@ line-height: 24px;
 
 .offer_img {
   margin-bottom: 30px;
+}
+.offer_img img{
+  border-radius: 12px;
 }
 
 .offer_tit {
@@ -434,7 +439,6 @@ line-height: 24px;
   color: #414536;
   font-size: 16px;
   line-height: 24px;
-  /* 150% */
   margin-bottom: 50px;
 }
 
@@ -451,19 +455,23 @@ line-height: 24px;
   border-radius: 50%;
   background: #ad343e url(../img/icons/clock.svg) center no-repeat;
 }
-
-/* .fast_icon:nth-child(2) i{
-  background-image: url();
+.fast_icon:first-child i{
+  background-image: url(../img/icons/fast_ic_1.svg) ;
+}
+.fast_icon:nth-child(2) i{
+  background-image: url(../img/icons/fast_ic_2.svg);
 }
 .fast_icon:last-child i{
-  background-image: url();
-} */
+  background-image: url(../img/icons/fast_ic_3.svg);
+}
 .fast_icon span {
+  display: block;
   padding-left: 20px;
   color: #2c2f24;
   font-size: 20px;
   font-weight: 500;
   line-height: 26px;
+  
   /* 130% */
 }
 
