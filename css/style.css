@@ -254,19 +254,28 @@ section {
 }
 
 .browse_card__1 .browse_ic {
-  background-image: url(/img/icons/icon1.png);
+ background-image:url(/img/icons/Group.svg) ;
+ background-repeat: no-repeat;
+	background-position: center;
 }
 
 .browse_card__2 .browse_ic {
-  background-image: url();
+  background-image: url(/img/icons/icon_2.svg);
+  background-repeat: no-repeat;
+	background-position: center;
+
 }
 
 .browse_card__3 .browse_ic {
-  background-image: url();
+  background-image: url(/img/icons/icon_3.svg);
+  background-repeat: no-repeat;
+	background-position: center;
 }
 
 .browse_card__4 .browse_ic {
-  background-image: url();
+  background-image: url(/img/icons/icon_4.svg);
+  background-repeat: no-repeat;
+	background-position: center;
 }
 
 .browse_tit {
