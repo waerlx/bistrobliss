@@ -317,9 +317,10 @@ line-height: 24px;
   position: relative;
 }
 .provide_img img {
+  border-radius: 12px;
 
 }
-.provide_info {
+.provide_infos {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -335,7 +336,6 @@ line-height: 24px;
 
 .provide_txt {
   color: #2c2f24;
-  font-weight: 500;
   font-size: 18px;
   margin-bottom: 24px;
   line-height: 28px;
@@ -349,7 +349,7 @@ line-height: 24px;
   margin-bottom: 40px;
 }
 
-.provide_info {
+.provide_infos {
   border-radius: 12px;
   background: #474747;
   padding: 50px;
