@@ -978,7 +978,7 @@ ol {
 }
 
 .secret_nm_txt li::before {
-  content: counter(item) ') ';
+  content: counter(item) '.';
   /* Добавляем к числам скобку */
   counter-increment: item;
   /* Задаём имя счетчика */
