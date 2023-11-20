@@ -598,6 +598,10 @@ line-height: 60.5px;
   margin-top: 12px;
   color: #2C2F24;
 line-height: 26px; /* 130% */
+margin-bottom: 40px;
+}
+.blog_card:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* footer */
@@ -805,6 +809,9 @@ footer {
 .menu_btn {
   margin-right: 15px;
 }
+.enu_btn .btn{
+  border: 1px solid #2c2f24;
+}
 
 .btn_all {
   background: #ad343e;
@@ -835,7 +842,9 @@ footer {
   background: #FFF;
   margin-bottom: 24px;
 }
-
+.menu_info{
+  margin-top: 30px;
+}
 .menu_cost {
   display: block;
   color: #AD343E;
@@ -846,6 +855,7 @@ footer {
   font-weight: 700;
   line-height: 30px;
   letter-spacing: -0.72px;
+  margin-bottom: 15px;
 }
 
 .menu_tit {
@@ -856,6 +866,7 @@ footer {
   font-style: normal;
   font-weight: 700;
   line-height: 26px;
+  margin-bottom: 15px;
   /* 130% */
 }
 
